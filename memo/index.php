@@ -2,49 +2,66 @@
 <html lang="ja">
     <?php
         include_once "../common/header.php";
-        echo getHeader("ログイン");
+        echo getHeader("メモ投稿");
     ?>
-    <body>
-        <div class="d-flex align-items-center justify-content-center h-100">
-            <form method="post" action="../memo/">
-                <div class="card rounded login-card-width shadow">
-                    <div class="card-body">
-                        <div class="rounded-circle mx-auto border-gray border d-flex mt-3 icon-circle">
-                            <img src="../public/images/animal_stand_zou.png" class="w-75 mx-auto p-2" alt="icon"/>
+    <body class="bg-white">
+        <div class="h-100">
+            <div class="row h-100 m-0 p-0">
+                <div class="col-3 h-100 m-0 p-0 border-left border-right border-gray">
+                    <div class="left-memo-menu d-flex justify-content-between pt-2">
+                        <div class="pl-3 pt-2">
+                            xxxさん、こんにちは。
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <div class="mt-3 h2">SimpleMemo</div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="offset-2 col-8 offset-2">
-                                <label class="input-group w-100">
-                                    <span class="input-group-prepend">
-                                        <span class="input-group-text"><i class="far fa-envelope"></i></span>
-                                    </span>
-                                    <input type="text" name="user_email" class="form-control" placeholder="メールアドレス" autocomplete="off" />
-                                </label>
-                                <label class="input-group w-100">
-                                    <span class="input-group-prepend">
-                                        <span class="input-group-text"><i class="fas fa-key"></i></span>
-                                    </span>
-                                    <input type="password" name="user_password" class="form-control" placeholder="パスワード" autocomplete="off" />
-                                </label>
-                                <button type="submit" class="form-control btn btn-success">
-                                    ログイン
-                                </button>
-                            </div>
-                        </div>
-                        <div class="mt-5">
-                            <div class="d-flex justify-content-center">
-                                アカウントをお持ちではありませんか？
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <a href="../user/" class="text-success">アカウントを作成</a>
-                            </div>
+                        <div class="pr-1">
+                            <a href="" class="btn btn-success"><i class="fas fa-plus"></i></a>
+                            <a href="../login/" class="btn btn-dark"><i class="fas fa-sign-out-alt"></i></a>
                         </div>
                     </div>
+                    <div class="left-memo-title h3 pl-3 pt-3">
+                        メモリスト
+                    </div>
+                    <div class="left-memo-list list-group-flush p-0">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">メモタイトル1</h5>
+                                <small>2020/08/01 09:00</small>
+                            </div>
+                            <p class="mb-1">
+                                メモ詳細1
+                            </p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">メモタイトル2</h5>
+                                <small>2020/08/01 09:00</small>
+                            </div>
+                            <p class="mb-1">
+                                メモ詳細2
+                            </p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">メモタイトル3</h5>
+                                <small>2020/08/01 09:00</small>
+                            </div>
+                            <p class="mb-1">
+                                メモ詳細3
+                            </p>
+                        </a>
+                    </div>
                 </div>
-            </form>
+                <div class="col-9 h-100">
+                    <form class="w-100 h-100" method="post">
+                        <input type="hidden" name="edit_id" value="" />
+                        <div id="memo-menu">
+                            <button type="submit" class="btn btn-danger" formaction=""><i class="fas fa-trash-alt"></i></button>
+                            <button type="submit" class="btn btn-success" formaction=""><i class="fas fa-save"></i></button>
+                        </div>
+                        <input type="text" id="memo-title" name="edit_title" placeholder="タイトルを入力する..." value="" />
+                        <textarea id="memo-content" name="edit_content" placeholder="内容を入力する..."></textarea>
+                    </form>
+                </div>
+            </div>
         </div>
     </body>
-</html>
+</html
