@@ -18,7 +18,7 @@
                     <div class="row mt-3">
                         <div class="offset-2 col-8 offset-2">
                             <label class="input-group w-100">
-                                <sapn class="input-group-prepend">
+                                <span class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-file-signature"></i></span>
                                 </span>
                                 <input type="text" name="user_name" class="form-control" placeholder="ユーザー名" autocomplete="off" maxlength="255" />
