@@ -19,13 +19,19 @@
                         <div class="offset-2 col-8 offset-2">
                             <label class="input-group w-100">
                                 <sapn class="input-group-prepend">
-                                    <span class="input-group-text"><i class="fas fa-file-signature"></li></span>
+                                    <span class="input-group-text"><i class="fas fa-file-signature"></i></span>
                                 </span>
                                 <input type="text" name="user_name" class="form-control" placeholder="ユーザー名" autocomplete="off" maxlength="255" />
                             </label>
                             <label class="input-group w-100">
                                 <span class="input-group-prepend">
-                                    <span class="input-group-text"><i class="fas fa-key"></li></span>
+                                    <span class="input-group-text"><i class="far fa-envelope"></i></span>
+                                </span>
+                                <input type="text" name="user_email" class="form-control" placeholder="メールアドレス" autocomplete="off" maxlength="255" />
+                            </label>
+                            <label class="input-group w-100">
+                                <span class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
                                 </span>
                                 <input type="password" name="user_password" class="form-control" placeholder="パスワード" autocomplete="off" maxlength="255" />
                             </label>
