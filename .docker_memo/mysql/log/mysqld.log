@@ -132,3 +132,97 @@ Version: '5.7.33'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Communi
 2021-03-08T06:12:35.458438Z 0 [Note] Event Scheduler: Loaded 0 events
 2021-03-08T06:12:35.459606Z 0 [Note] mysqld: ready for connections.
 Version: '5.7.33'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2021-03-09T15:30:14.086863Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2021-03-09T15:30:14.090194Z 0 [Note] Shutting down slave threads
+2021-03-09T15:30:14.091572Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2021-03-09T15:30:14.093008Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-03-09T15:30:14.095507Z 0 [Note] Binlog end
+2021-03-09T15:30:14.123603Z 0 [Note] Shutting down plugin 'ngram'
+2021-03-09T15:30:14.125024Z 0 [Note] Shutting down plugin 'partition'
+2021-03-09T15:30:14.125626Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2021-03-09T15:30:14.126615Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2021-03-09T15:30:14.127146Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-03-09T15:30:14.129327Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-03-09T15:30:14.129971Z 0 [Note] Shutting down plugin 'MyISAM'
+2021-03-09T15:30:14.130949Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2021-03-09T15:30:14.131952Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-03-09T15:30:14.132402Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-03-09T15:30:14.132923Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-03-09T15:30:14.133393Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-03-09T15:30:14.134182Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-03-09T15:30:14.134750Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-03-09T15:30:14.135323Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-03-09T15:30:14.135939Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-03-09T15:30:14.136877Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-03-09T15:30:14.137637Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-03-09T15:30:14.138246Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-03-09T15:30:14.138977Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-03-09T15:30:14.139704Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-03-09T15:30:14.140517Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-03-09T15:30:14.141289Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-03-09T15:30:14.141785Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-03-09T15:30:14.142411Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2021-03-09T15:30:14.142964Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-03-09T15:30:14.143564Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-03-09T15:30:14.144122Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-03-09T15:30:14.144698Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-03-09T15:30:14.145295Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-03-09T15:30:14.145876Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-03-09T15:30:14.146400Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-03-09T15:30:14.146926Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-03-09T15:30:14.147481Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2021-03-09T15:30:14.148117Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-03-09T15:30:14.149038Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-03-09T15:30:14.149544Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2021-03-09T15:30:14.150186Z 0 [Note] Shutting down plugin 'InnoDB'
+2021-03-09T15:30:14.155993Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-03-09T15:30:14.156924Z 0 [Note] InnoDB: Starting shutdown...
+2021-03-09T15:30:14.265364Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-03-09T15:30:14.283358Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 210310  0:30:14
+2021-03-09T15:30:15.950409Z 0 [Note] InnoDB: Shutdown completed; log sequence number 12665537
+2021-03-09T15:30:15.958404Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-03-09T15:30:15.959055Z 0 [Note] Shutting down plugin 'MEMORY'
+2021-03-09T15:30:15.959665Z 0 [Note] Shutting down plugin 'CSV'
+2021-03-09T15:30:15.960452Z 0 [Note] Shutting down plugin 'sha256_password'
+2021-03-09T15:30:15.961078Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2021-03-09T15:30:15.978985Z 0 [Note] Shutting down plugin 'binlog'
+2021-03-09T15:30:16.039512Z 0 [Note] mysqld: Shutdown complete
+
+2021-03-10T05:58:24.803875Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-03-10T05:58:24.810560Z 0 [Note] mysqld (mysqld 5.7.33) starting as process 1 ...
+2021-03-10T05:58:24.817706Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-03-10T05:58:24.823559Z 0 [Note] InnoDB: PUNCH HOLE support available
+2021-03-10T05:58:24.824162Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-03-10T05:58:24.824800Z 0 [Note] InnoDB: Uses event mutexes
+2021-03-10T05:58:24.825563Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-03-10T05:58:24.826129Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-10T05:58:24.826725Z 0 [Note] InnoDB: Using Linux native AIO
+2021-03-10T05:58:24.828459Z 0 [Note] InnoDB: Number of pools: 1
+2021-03-10T05:58:24.830970Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2021-03-10T05:58:24.832721Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-03-10T05:58:24.844949Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-10T05:58:24.849419Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-10T05:58:24.899722Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-03-10T05:58:25.006483Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-10T05:58:25.011869Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-10T05:58:25.135577Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-10T05:58:25.139287Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-03-10T05:58:25.139703Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-03-10T05:58:25.140401Z 0 [Note] InnoDB: Waiting for purge to start
+2021-03-10T05:58:25.191201Z 0 [Note] InnoDB: 5.7.33 started; log sequence number 12665537
+2021-03-10T05:58:25.191986Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-10T05:58:25.192614Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-03-10T05:58:25.255571Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2021-03-10T05:58:25.256203Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2021-03-10T05:58:25.259682Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210310 14:58:25
+2021-03-10T05:58:25.266169Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-03-10T05:58:25.267219Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2021-03-10T05:58:25.273894Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2021-03-10T05:58:25.274668Z 0 [Note] IPv6 is available.
+2021-03-10T05:58:25.275204Z 0 [Note]   - '::' resolves to '::';
+2021-03-10T05:58:25.275831Z 0 [Note] Server socket created on IP: '::'.
+2021-03-10T05:58:25.278364Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-10T05:58:25.520823Z 0 [Note] Event Scheduler: Loaded 0 events
+2021-03-10T05:58:25.521593Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.33'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2021-03-10T07:15:05.690519Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 66526ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
