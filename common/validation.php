@@ -14,7 +14,7 @@ function emptyCheck(&$errors,$check_value,$message) {
 }
 
 function stringMinSizeCheck(&$errors,$check_value,$message,$min_size = 8) {
-    if (mb_strlrn($check_value) < $min_size) {
+    if (mb_strlen($check_value) < $min_size) {
         array_push($errors,$message);
     }
 }

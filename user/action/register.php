@@ -19,7 +19,7 @@
     stringMaxSizeCheck($_SESSION['errors'],$user_name,"ユーザー名は255文字以内で入力してください。");
     stringMaxSizeCheck($_SESSION['errors'],$user_email,"メールアドレスは255文字以内で入力してください。");
     stringMaxSizeCheck($_SESSION['errors'],$user_password,"パスワードは255文字以内で入力してください。");
-    stringMaxSizeCheck($_SESSION['errors'],$user_password,"パスワードは8文字以上で入力してください。");
+    stringMinSizeCheck($_SESSION['errors'],$user_password,"パスワードは8文字以上で入力してください。");
 
     if(!$_SESSION['errors']) {
         //メールアドレスチェック
