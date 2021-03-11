@@ -1,1 +1,52 @@
 [10-Mar-2021 22:28:16 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 17
+[11-Mar-2021 21:37:36 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlrn() in /var/www/html/common/validation.php:17
+Stack trace:
+#0 /var/www/html/user/action/register.php(22): stringMinSizeCheck(Array, '', '\xE3\x83\x91\xE3\x82\xB9\xE3\x83\xAF\xE3\x83\xBC\xE3\x83\x89...')
+#1 {main}
+  thrown in /var/www/html/common/validation.php on line 17
+[11-Mar-2021 21:37:50 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strlrn() in /var/www/html/common/validation.php:17
+Stack trace:
+#0 /var/www/html/user/action/register.php(22): stringMinSizeCheck(Array, '', '\xE3\x83\x91\xE3\x82\xB9\xE3\x83\xAF\xE3\x83\xBC\xE3\x83\x89...')
+#1 {main}
+  thrown in /var/www/html/common/validation.php on line 17
+[11-Mar-2021 21:43:31 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function mailAddressCheck() in /var/www/html/user/action/register.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/user/action/register.php on line 26
+[11-Mar-2021 21:47:09 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function mailAddressCheck() in /var/www/html/user/action/register.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/user/action/register.php on line 26
+[11-Mar-2021 22:07:13 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function mailAddressCheck() in /var/www/html/user/action/register.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/user/action/register.php on line 26
+[11-Mar-2021 22:12:34 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function mailAddressCheck() in /var/www/html/user/action/register.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/user/action/register.php on line 26
+[11-Mar-2021 22:18:13 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function mailAddressCheck() in /var/www/html/user/action/register.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/user/action/register.php on line 26
+[11-Mar-2021 22:20:12 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function mailAddressCheck() in /var/www/html/user/action/register.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/user/action/register.php on line 26
+[11-Mar-2021 22:27:20 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function mailAddressCheck() in /var/www/html/user/action/register.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/user/action/register.php on line 26
+[11-Mar-2021 23:26:46 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
+[11-Mar-2021 23:26:46 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
+[11-Mar-2021 23:26:46 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[11-Mar-2021 23:34:38 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
+[11-Mar-2021 23:34:38 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
+[11-Mar-2021 23:35:29 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
+[11-Mar-2021 23:35:29 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
+[11-Mar-2021 23:35:29 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[11-Mar-2021 23:41:17 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
+[11-Mar-2021 23:41:17 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
+[11-Mar-2021 23:42:06 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
+[11-Mar-2021 23:42:06 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
+[11-Mar-2021 23:42:06 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50

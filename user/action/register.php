@@ -22,15 +22,16 @@
     stringMinSizeCheck($_SESSION['errors'],$user_password,"パスワードは8文字以上で入力してください。");
 
     if(!$_SESSION['errors']) {
-        //メールアドレスチェック
-        mailAddressCheck($_SESSION['errors'],$user_email,"正しいメールアドレスを入力してください。");
+        // - メールアドレスチェック
+        mailAddressCheck($_SESSION['errors'], $user_email, "正しいメールアドレスを入力してください。");
 
         // - ユーザー名・パスワード半角英数チェック
-        halfAlphanumericCheck($_SESSION['errors'],$user_name,"ユーザー名は半角英数字で入力してください。");
-        halfAlphanumericCheck($_SESSION['errors'],$user_password,"パスワードは半角英数字で入力してください。");
+        halfAlphanumericCheck($_SESSION['errors'], $user_name, "ユーザー名は半角英数字で入力してください。");
+        halfAlphanumericCheck($_SESSION['errors'], $user_password, "パスワードは半角英数字で入力してください。");
 
         // - メールアドレス重複チェック
-        mailAddressDuplicationCheck($_SESSION['errors'],$user_email,"既に登録されているメールアドレスです。");
+        mailAddressDuplicationCheck($_SESSION['errors'], $user_email, "既に登録されているメールアドレスです。");
+
     }
 
     if($_SESSION['errors']) {
