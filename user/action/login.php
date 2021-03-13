@@ -31,3 +31,39 @@
         header('Location: ../../login/');
         exit;
     }
+
+    //ログイン処理
+    $database_handler = getDatabaseConnection();
+    if ($statement = $database_handler->prepare('SELECT id, name, password FROM users WHERE email = :user_email')) {
+        $statement->bindParam(':user_email', $user_email);
+        $statement->execute();
+
+        $user = $statement->fetch(PDO::FETCH_ASSOC);
+        if(!$user) {
+            $_SESSION['errors'] = [
+                'メールアドレスまたはパスワードが間違っています。'
+            ];
+            header('Location: ../../login/');
+            exit;
+        }
+
+        $name = $user['name'];
+        $id = $user['id'];
+
+        if(password_verify($user_password,$user['password'])) {
+            //ユーザー情報保持
+            $_SESSION['user'] = [
+                'name' => $name,
+                'id' =>$id
+            ];
+
+            header('Location: ../../memo/');
+            exit;
+        } else {
+            $_SESSION['errors'] = [
+                'メールアドレスまたはパスワードが違っています。'
+            ];
+            header('Location: ../../login/');
+            exit;
+        }
+    }
