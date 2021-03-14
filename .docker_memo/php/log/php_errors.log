@@ -50,3 +50,4 @@ Stack trace:
 [11-Mar-2021 23:42:06 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
 [11-Mar-2021 23:42:06 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
 [11-Mar-2021 23:42:06 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[15-Mar-2021 00:13:13 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
