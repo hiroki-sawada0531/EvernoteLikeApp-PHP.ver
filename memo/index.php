@@ -21,7 +21,7 @@
                             xxxさん、こんにちは。
                         </div>
                         <div class="pr-1">
-                            <a href="" class="btn btn-success"><i class="fas fa-plus"></i></a>
+                            <a href="./action/add.php" class="btn btn-success"><i class="fas fa-plus"></i></a>
                             <a href="../login/" class="btn btn-dark"><i class="fas fa-sign-out-alt"></i></a>
                         </div>
                     </div>

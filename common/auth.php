@@ -42,7 +42,7 @@ function getLoginUserName() {
  */
 
 function getLoginUserId() {
-    if(isser($_SESSION['user'])) {
+    if(isset($_SESSION['user'])) {
         return $_SESSION['user']['id'];
     }
 

@@ -51,3 +51,12 @@ Stack trace:
 [11-Mar-2021 23:42:06 Asia/Tokyo] PHP Warning:  Use of undefined constant check_value - assumed 'check_value' (this will throw an Error in a future version of PHP) in /var/www/html/common/validation.php on line 35
 [11-Mar-2021 23:42:06 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
 [15-Mar-2021 00:13:13 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[15-Mar-2021 23:39:22 Asia/Tokyo] PHP Warning:  require(../../common.database.php): failed to open stream: No such file or directory in /var/www/html/memo/action/add.php on line 3
+[15-Mar-2021 23:39:22 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required '../../common.database.php' (include_path='.:/usr/local/lib/php') in /var/www/html/memo/action/add.php on line 3
+[15-Mar-2021 23:39:36 Asia/Tokyo] PHP Warning:  require(../../common.database.php): failed to open stream: No such file or directory in /var/www/html/memo/action/add.php on line 3
+[15-Mar-2021 23:39:36 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required '../../common.database.php' (include_path='.:/usr/local/lib/php') in /var/www/html/memo/action/add.php on line 3
+[15-Mar-2021 23:40:25 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function isser() in /var/www/html/common/auth.php:45
+Stack trace:
+#0 /var/www/html/memo/action/add.php(10): getLoginUserId()
+#1 {main}
+  thrown in /var/www/html/common/auth.php on line 45
