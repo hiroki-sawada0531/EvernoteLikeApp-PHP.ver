@@ -1,9 +1,32 @@
 <?php
     require '../common/auth.php';
+    require '../common/database.php';
 
     if(!isLogin()) {
         header('Location: ../login/');
         exit;
+    }
+
+    $user_name = getLoginUserName();
+    $user_id = getLoginUserId();
+
+    $memos = [];
+    $database_handler = getDatabaseConnection();
+    if ($statement = $database_handler->prepare("SELECT id, title, cobtent, upload_at FROM memos WHERE user_id = :user_id ORDER BY updated_at DESC")) {
+        $statement->bindParam(':user_id', $user_id);
+        $statement->execute();
+
+        while ($result = $statement->fetch(PDO::FETCH_ASSOC)) {
+            array_push($memos, $result);
+        }
+    }
+
+    $edit_id = "";
+    if (isset($_SESSION['select_memo'])) {
+        $edit_memo = $_SESSION['select_memo'];
+        $edit_id = empty($edit_memo['id']) ? "" : $edit_memo['id'];
+        $edit_title = empty($edit_memo['title']) ? "" : $edit_memo['title'];
+        $edit_content = empty($edit_memo['content']) ? "" : $edit_memo['content'];
     }
     ?>
 <!DOCTYPE html>
