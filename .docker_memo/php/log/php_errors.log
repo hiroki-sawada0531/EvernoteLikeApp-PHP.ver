@@ -60,3 +60,5 @@ Stack trace:
 #0 /var/www/html/memo/action/add.php(10): getLoginUserId()
 #1 {main}
   thrown in /var/www/html/common/auth.php on line 45
+[16-Mar-2021 23:46:00 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 20
+[16-Mar-2021 23:46:00 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 21
