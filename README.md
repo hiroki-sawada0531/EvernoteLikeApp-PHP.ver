@@ -9,9 +9,11 @@ https://www.techpit.jp/courses/132
 
 ## :octocat:開発環境
 
-- PHP
-- Docker
-- phpMyAdmin
+- PHP 7.4.10
+- Docker 19
+- docker-compose 1.27
+- nginx 1.19.1
+- phpMyAdmin 5.0
 - VSCode（Visual Studio Code）
 
 <p align="center">
