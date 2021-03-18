@@ -22,6 +22,8 @@ https://www.techpit.jp/courses/132
   <a href="https://www.docker.com/"><img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" height="60px;" /></a>
   &emsp;
   <a href="https://www.phpmyadmin.net/"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/PhpMyAdmin_logo.png" height="60px;" /></a>
+  &emsp;
+  <a href="https://www.nginx.com/"><img src="https://docs.nginx.com/_static/images/NGINX-Logo-White-Endorsement-RGB.svg?var=1615927559.63" height="60px;" /></a>
 </p>
 
 ## :memo:アプリの機能
