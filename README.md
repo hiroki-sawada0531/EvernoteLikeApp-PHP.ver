@@ -2,13 +2,12 @@
 
 <h2 align="center">EvernoteLikeApp-PHP.ver</h2>
 
+## :octocat:開発環境
+
 <p align="center">
-  ## :octocat:開発環境
   <a href="https://www.php.net/"><img src="https://www.php.net/images/logos/new-php-logo.png" width="120px;" /></a>
   <br>
   <a href="https://www.docker.com/"><img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" height="60px;" /></a>
   &emsp;
   <a href="https://www.phpmyadmin.net/"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/PhpMyAdmin_logo.png" height="60px;" /></a>
 </p>
-
-:octocat:
