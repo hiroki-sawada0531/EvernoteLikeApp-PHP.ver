@@ -3,7 +3,7 @@
 ![スクリーンショット 2021-03-18 16 41 13](https://user-images.githubusercontent.com/69971751/111589944-db94a580-8808-11eb-8612-3a1eac3f0f42.png)
 
 ## :clap:参考にした学習教材及び製作者様
-https://www.techpit.jp/courses/132　(※この教材は有料です。)
+https://www.techpit.jp/courses/132　&ensp;(※この教材は有料です。)
 講師:yasuaki様
 
 ## :octocat:開発環境
