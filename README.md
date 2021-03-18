@@ -23,6 +23,4 @@
 
 緑のプラスマークボタンを押すことでメモを新しく作ることが出来ます。
 
-<p align="center">
 ![Evenote1](https://user-images.githubusercontent.com/69971751/111601562-d2f69c00-8815-11eb-9d79-a1a9978bd238.gif)
-</p>
