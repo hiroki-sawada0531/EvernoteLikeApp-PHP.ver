@@ -7,6 +7,7 @@
 - PHP
 - Docker
 - phpMyAdmin
+- VSCode（Visual Studio Code）
 
 <p align="center">
   <a href="https://www.php.net/"><img src="https://www.php.net/images/logos/new-php-logo.png" width="120px;" /></a>
