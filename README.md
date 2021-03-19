@@ -52,12 +52,28 @@ I.メモタイトルと本文はそれぞれ"新規メモ"と"内容を入力す
 ## :pencil2:使用方法
 
 1.Dockerの導入
+<br>
 https://www.docker.com/get-started
 からDockerをダウンロード。
 <br>
+
 2.dockerコマンドとdocker-composeコマンドの確認
+<br>
 ```docker -v``` ```docker-compose -v```
 <br>
-3.
-4.ビジター用に用意したメールアドレスtest@example.comとパスワード00000000を入力して緑色のログインボタンを押して下さい。
+
+3.環境作成用ファイルの取得
+<br>
+https://github.com/YasuakiHirano/docker_simple_memo_php
+のCodeをクリックしてからDownload ZIPをクリック。
+<br>
+
+4.開発環境を立ち上げ
+<br>
+```cd docker_simple_memo_php``` git cloneをしてきたディレクトリの直下まで移動
+<br>
+```docker-compose -f .docker_memo/docker-compose.yml up -d``` ... doneが４つ表示されればOK
+<br>
+
+5.ビジター用に用意したメールアドレスtest@example.comとパスワード00000000を入力して緑色のログインボタンを押して下さい。
 <br>
