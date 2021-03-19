@@ -25,6 +25,8 @@ https://www.techpit.jp/courses/132
   <a href="https://www.phpmyadmin.net/"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/PhpMyAdmin_logo.png" height="60px;" /></a>
   &emsp;
   <a href="https://www.nginx.com/"><img src="https://www.nginx.com/wp-content/uploads/2020/05/NGINX-product-icon.svg" height="60px;" /></a>
+  &emsp;
+  <a href="https://www.nginx.com/"><img src="https://www.nginx.com/wp-content/uploads/2020/05/NGINX-product-icon.svg" height="60px;" /></a>
 </p>
 
 ## :memo:アプリの機能
