@@ -72,3 +72,10 @@ Stack trace:
 [18-Mar-2021 18:42:49 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 21
 [18-Mar-2021 18:45:04 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 20
 [18-Mar-2021 18:45:04 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 21
+[19-Mar-2021 20:59:36 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[19-Mar-2021 21:11:59 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[19-Mar-2021 21:13:19 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 20
+[19-Mar-2021 21:13:19 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 21
+[19-Mar-2021 21:13:19 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/memo/action/update.php on line 34
+[19-Mar-2021 21:13:19 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/memo/action/update.php on line 35
+[19-Mar-2021 21:13:19 Asia/Tokyo] PHP Notice:  Trying to access array offset on value of type bool in /var/www/html/memo/action/update.php on line 36
