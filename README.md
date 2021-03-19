@@ -56,5 +56,5 @@ https://evernotelikeapp-php.herokuapp.com
 <br>
 
 1.上記のURLを開くとメモアプリのログイン画面に移動します。
+<br>
 2.ビジター用に用意したメールアドレス<span style="color: red; ">test@example.com</span>とパスワード<span style="color: red; ">00000000</span>を入力して緑色のログインボタンを押して下さい。
-
