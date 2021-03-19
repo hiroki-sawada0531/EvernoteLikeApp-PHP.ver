@@ -46,7 +46,7 @@ I.メモタイトルと本文はそれぞれ"新規メモ"と"内容を入力す
 
 <img src="https://user-images.githubusercontent.com/69971751/111623727-18bf5e80-882e-11eb-94e1-e4d27760ebd4.gif" width=50%>
 
-## :pencil2:使用方法
+## :pencil2:使用方法(Mac)
 
 1.Dockerの導入
 <br>
