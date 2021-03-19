@@ -51,10 +51,13 @@ I.メモタイトルと本文はそれぞれ"新規メモ"と"内容を入力す
 
 ## :pencil2:使用方法
 
-https://evernotelikeapp-php.herokuapp.com
+1.Dockerの導入
+https://www.docker.com/get-started
+からDockerをダウンロード。
 <br>
-1.上記のURLを開くとメモアプリのログイン画面に移動します。
-<br>
-2.ビジター用に用意したメールアドレスtest@example.comとパスワード00000000を入力して緑色のログインボタンを押して下さい。
+2.dockerコマンドとdocker-composeコマンドの確認
+docker -v docker-compose -v
 <br>
 3.
+4.ビジター用に用意したメールアドレスtest@example.comとパスワード00000000を入力して緑色のログインボタンを押して下さい。
+<br>
