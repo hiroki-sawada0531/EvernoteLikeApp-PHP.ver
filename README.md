@@ -62,10 +62,9 @@ https://www.docker.com/get-started
 ```docker -v``` ```docker-compose -v```
 <br>
 
-3.環境作成用ファイルの取得
+3.開発環境とプロジェクトのクローン
 <br>
-https://github.com/YasuakiHirano/docker_simple_memo_php
-のCodeをクリックしてからDownload ZIPをクリック。
+```git clone https://github.com/hiroki-sawada0531/EvernoteLikeApp-PHP.ver.git```
 <br>
 
 4.開発環境を立ち上げ
@@ -75,5 +74,13 @@ https://github.com/YasuakiHirano/docker_simple_memo_php
 ```docker-compose -f .docker_memo/docker-compose.yml up -d``` ... doneが４つ表示されればOK
 <br>
 
-5.ビジター用に用意したメールアドレスtest@example.comとパスワード00000000を入力して緑色のログインボタンを押して下さい。
+4.サイトにアクセス
+<br>
+http://localhost:8080/login/ 
+にアクセスする。
+<br>
+
+5.ログイン
+<br>
+テストログイン用に用意してあるメールアドレスtest@example.comとパスワード00000000を入力して緑色のログインボタンを押して下さい。
 <br>
