@@ -7,7 +7,7 @@
 function getDatabaseConnection() {
     try
     {
-        $database_handler = new PDO('mysql:host=db;dbname=simple_memo;charset=utf8mb4', 'root', 'password');
+        $database_handler = new PDO('mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_af234e995b33850;charset=utf8mb4', 'b3ac61fdbd174d', '908281b9');
     }
     catch (PDOException $e)
     {
