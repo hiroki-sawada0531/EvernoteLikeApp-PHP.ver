@@ -14,6 +14,7 @@ https://www.techpit.jp/courses/132
 - docker-compose 1.27
 - nginx 1.19.1
 - phpMyAdmin 5.0
+- Heroku
 - VSCode（Visual Studio Code）
 
 <p align="center">
