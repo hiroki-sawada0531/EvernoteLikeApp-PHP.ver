@@ -26,7 +26,7 @@ https://www.techpit.jp/courses/132
   &emsp;
   <a href="https://www.nginx.com/"><img src="https://www.nginx.com/wp-content/uploads/2020/05/NGINX-product-icon.svg" height="60px;" /></a>
   &emsp;
-  <a href="https://www.nginx.com/"><img src="https://www.nginx.com/wp-content/uploads/2020/05/NGINX-product-icon.svg" height="60px;" /></a>
+  <a href="https://jp.heroku.com/"><img src="https://brand.heroku.com/static/media/heroku-logo-stroke-white.e83b4856.svg" height="60px;" /></a>
 </p>
 
 ## :memo:アプリの機能
