@@ -56,7 +56,7 @@ https://www.docker.com/get-started
 からDockerをダウンロード。
 <br>
 2.dockerコマンドとdocker-composeコマンドの確認
-docker -v docker-compose -v
+```docker -v``` ```docker-compose -v```
 <br>
 3.
 4.ビジター用に用意したメールアドレスtest@example.comとパスワード00000000を入力して緑色のログインボタンを押して下さい。
