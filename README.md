@@ -68,7 +68,7 @@ https://www.docker.com/get-started
 <br>
 ```cd docker_simple_memo_php``` git cloneをしてきたディレクトリの直下まで移動
 <br>
-```docker-compose -f .docker_memo/docker-compose.yml up -d``` ... doneが４つ表示されればOK
+```docker-compose -f .docker_memo/docker-compose.yml up -d``` ... doneが４つ表示されればOK。
 <br>
 
 4.サイトにアクセス
