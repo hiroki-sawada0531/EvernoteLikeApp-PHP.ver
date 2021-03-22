@@ -66,7 +66,7 @@ https://www.docker.com/get-started
 
 4.開発環境を立ち上げ
 <br>
-```cd docker_simple_memo_php``` git cloneをしてきたディレクトリの直下まで移動
+```cd docker_simple_memo_php``` git cloneをしてきたディレクトリの直下まで移動。
 <br>
 ```docker-compose -f .docker_memo/docker-compose.yml up -d``` ... doneが４つ表示されればOK。
 <br>
