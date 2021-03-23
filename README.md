@@ -73,11 +73,6 @@ https://www.docker.com/get-started
 
 4.サイトにアクセス
 <br>
-http://localhost:8080/login/ 
+http://localhost:8080/login/ or http://localhost:8080/
 にアクセスする。
-<br>
 
-5.ログイン
-<br>
-テストログイン用に用意してあるメールアドレスtest@example.comとパスワード00000000を入力して緑色のログインボタンを押して下さい。
-<br>
