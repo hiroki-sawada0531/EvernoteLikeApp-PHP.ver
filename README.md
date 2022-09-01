@@ -7,7 +7,7 @@ https://www.techpit.jp/courses/132
 (※この教材は有料です。)
 <br>講師:yasuaki様
 
-## :octocat:開発環境
+## :octocat:　開発環境
 
 - PHP 7.4.10
 - Docker 19
@@ -26,7 +26,7 @@ https://www.techpit.jp/courses/132
   <a href="https://www.nginx.com/"><img src="https://www.nginx.com/wp-content/uploads/2020/05/NGINX-product-icon.svg" height="60px;" /></a>
 </p>
 
-## :memo:アプリの機能
+## :memo:　アプリの機能
 
 <h3>1.新規メモの作成</h3>
 
@@ -46,7 +46,7 @@ I.メモタイトルと本文はそれぞれ"新規メモ"と"内容を入力す
 
 <img src="https://user-images.githubusercontent.com/69971751/111623727-18bf5e80-882e-11eb-94e1-e4d27760ebd4.gif" width=50%>
 
-## :pencil2:使用方法(Mac)
+## :pencil2:　使用方法(Mac)
 
 1.Dockerの導入
 <br>
